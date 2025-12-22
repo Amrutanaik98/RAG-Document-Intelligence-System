@@ -68,11 +68,7 @@ with st.sidebar:
     - ⚡ Fast retrieval (< 1 second)
     """)
 
-# ============================================================================
-# Main Content
-# ============================================================================
 
-# Check API Health
 try:
     health_response = requests.get(f"{api_url}/health", timeout=5)
     if health_response.status_code == 200:
@@ -92,9 +88,6 @@ except:
 
 st.divider()
 
-# ============================================================================
-# Query Section
-# ============================================================================
 
 st.subheader("🔍 Ask a Question")
 
