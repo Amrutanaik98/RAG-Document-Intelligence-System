@@ -34,6 +34,8 @@ st.markdown("""
         padding: 15px;
         margin: 10px 0;
         border-radius: 5px;
+        color: #000000;
+        font-size: 13px;
     }
     .answer-box {
         background-color: #e7f3ff;
@@ -41,6 +43,8 @@ st.markdown("""
         padding: 15px;
         border-radius: 5px;
         margin: 15px 0;
+        color: #000000;
+        font-size: 14px;
     }
 </style>
 """, unsafe_allow_html=True)
@@ -329,4 +333,4 @@ streamlit run streamlit_app.py
 # Browser
 # Go to: http://localhost:8501
 ```
-""")s
+""")
